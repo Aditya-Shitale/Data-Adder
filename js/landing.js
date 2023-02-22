@@ -15,9 +15,9 @@ function validation() {
     var dob = $("#dob").val();
     var gen = $("#gen").val();
     var hobby = $("#hobby").val();
-    var country = $("#country").val();
-    var state = $("#state").val();
-    var city = $("#city").val();
+    var country = $("#countryId").val();
+    var state = $("#stateId").val();
+    var city = $("#cityId").val();
 
  
      var jsonStrObj ={

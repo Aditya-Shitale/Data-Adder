@@ -15,6 +15,9 @@ and open the template in the editor.
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//geodata.solutions/includes/countrystatecity.js"></script> -->
   </head>
   <body>
     <div class="container">
@@ -38,7 +41,12 @@ and open the template in the editor.
         
         <div class="form-group">
           <label for="gen">Gender:</label>
-          <input type="text" class="form-control" id="gen" name="gen" required />
+          <select type="text" class="form-control" id="gen" name="gen" required >
+            <option value="">Select</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Not to Specify</option>
+            </select>
         </div>
 
         <div class="form-group">
@@ -63,12 +71,12 @@ and open the template in the editor.
 
         
         
-        <input type="button" class="btn btn-primary" id="Save" value="Update" onclick="UpdateDataN();" />
+        <input type="button" class="btn btn-primary" id="Save" value="Update" onclick="UpdateDataNow();" />
 
 
   
         <script type="text/javascript"  src="https://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/update.js"></script>
       </form>
    
     </div>

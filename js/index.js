@@ -68,8 +68,9 @@ function UpdateRec(num){
        console.log(JSON.stringify(obj))
        var l=JSON.stringify(obj)
        localStorage.setItem("UpdateObj",l);
+       localStorage.setItem("rec_no",num);
        location.href="./update.html";
-       UpdateData(l);
+    //    UpdateData(l);
     // var req=createUPDATERecordRequest(connToken,jsonobj,UserDBName,UserRelName,num);
     // console.log(req)
 }
