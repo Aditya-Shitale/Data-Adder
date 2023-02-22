@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+  <head>
+    <title>Student form</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>User Form</h2>
+      <form id="empForm" method="get">
+
+        <div class="form-group">
+          <label for="Full-Name">Full-Name:</label>
+          <input type="text" class="form-control" name="Full-Name"  id="Full-Name"  required/>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" name="email"  required/>
+        </div>
+
+        <div class="form-group">
+          <label for="dob">Date of Birth:</label>
+          <input type="text" class="form-control" id="dob" name="dob" required />
+        </div>
+        
+        <div class="form-group">
+          <label for="gen">Gender:</label>
+          <input type="text" class="form-control" id="gen" name="gen" required />
+        </div>
+
+        <div class="form-group">
+          <label for="hobby">Hobby:</label>
+          <input type="text" class="form-control" id="hobby" name="hobby" required/>
+        </div>
+
+        <div class="form-group">
+          <label for="country">Country:</label>
+          <input type="text" class="form-control" id="country" name="country" required />
+        </div>
+        <div class="form-group">
+          <label for="State">State:</label>
+          <input type="text" class="form-control" id="state" name="state" required />
+        </div>
+        <div class="form-group">
+          <label for="city">City:</label>
+          <input type="text" class="form-control" id="city" name="city" required />
+        </div>
+
+
+
+        
+        
+        <input type="button" class="btn btn-primary" id="Save" value="Save" onclick="saveData();" />
+
+
+  
+        <script type="text/javascript"  src="https://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+        <script type="text/javascript" src="js/landing.js"></script>
+      </form>
+   
+    </div>
+  </body>
+</html>
